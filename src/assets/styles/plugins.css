@@ -215,6 +215,10 @@
 	color: #fff;
 }
 
+.card-info.card-outline {
+	border-top: 3px solid #17a2b8;
+}
+
 .card-info:not(.card-outline)>.card-header {
 	background-color: #17a2b8;
 }

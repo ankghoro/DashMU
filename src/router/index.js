@@ -26,6 +26,11 @@ const router = createRouter({
 					path: "/forms/advanced",
 					name: "advanced",
 					component: Advanced
+				},
+				{
+					path: "/forms/editors",
+					name: "editors",
+					component: Advanced
 				}
 			]
 		},

@@ -22,22 +22,11 @@
 </template>
 
 <script>
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faArrowCircleRight, faBagShopping, faChartSimple, faUserPlus, faChartPie } from '@fortawesome/free-solid-svg-icons'
-
 import Boxes from '@/components/dashboard/Boxes.vue'
-
-library.add(faArrowCircleRight)
-library.add(faBagShopping)
-library.add(faChartSimple)
-library.add(faUserPlus)
-library.add(faChartPie)
 
 export default {
 	name: 'dashboard',
 	components: {
-		FontAwesomeIcon,
 		Boxes
 	}
 }

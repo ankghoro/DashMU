@@ -10,7 +10,7 @@
 				<span class="dash-adm-dp"><img src="@/assets/images/sexy-girl.png" /></span>
 				<span class="dash-adm-name">Sassy Emilia</span>
 			</div>
-			<div class="side-list">
+			<div class="side-list" id="side-list">
 				<ul>
 					<li>
 						<RouterLink to="/">
@@ -37,10 +37,10 @@
 								</RouterLink>
 							</li>
 							<li class="nav-item">
-								<a href="../forms/editors.html" class="nav-link">
+								<RouterLink to="/forms/editors" class="nav-link">
 									<font-awesome-icon icon="fa-solid fa-check" class="nav-icon" />
 									<p>Editors</p>
-								</a>
+								</RouterLink>
 							</li>
 							<li class="nav-item">
 								<a href="../forms/validation.html" class="nav-link">
@@ -137,6 +137,7 @@ export default {
 			}
 		},
 		expandable(ev) {
+			this.expandClick = true;
 			var menu_forms = document.getElementById('forms_expand');
 			if(menu_forms.classList.value.match('expandable') != null) {
 				menu_forms.classList.remove('expandable');
