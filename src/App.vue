@@ -3,7 +3,7 @@
 		<div class="wrapper">
 			<div class="dash-name">
 				<a class="dash-link" href=".">
-					<img alt="Vue logo" class="logo" src="@/assets/images/sneakers-color.png" height="24" />&nbsp;&nbsp;DashMU
+					<img alt="Vue logo" class="logo" src="@/assets/images/sneakers-color.png" height="24" />DashMU
 				</a>
 			</div>
 			<div class="dash-profile">
@@ -51,6 +51,12 @@
 						</ul>
 					</li>
 					<li>
+						<RouterLink to="/table">
+							<div><font-awesome-icon icon="fa-solid fa-table" /></div>
+							<div>Table</div>
+						</RouterLink>
+					</li>
+					<li>
 						<RouterLink to="/about">
 							<div><font-awesome-icon icon="fa-solid fa-info" /></div>
 							<div>About</div>
@@ -92,7 +98,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faMaximize, faBars, faGauge, faEdit, faInfo, faCheck } from '@fortawesome/free-solid-svg-icons'
+import { faMaximize, faBars, faGauge, faEdit, faInfo, faCheck, faTable } from '@fortawesome/free-solid-svg-icons'
 
 library.add(faMaximize)
 library.add(faBars)
@@ -100,6 +106,7 @@ library.add(faGauge)
 library.add(faEdit)
 library.add(faInfo)
 library.add(faCheck)
+library.add(faTable)
 
 export default {
 	components: {

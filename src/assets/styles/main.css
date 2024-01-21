@@ -42,6 +42,11 @@ a {
 	color: #ddd;
 }
 
+.sidebar a img {
+	height: 50px;
+	margin-right: 5px;
+}
+
 .main {
 	height: auto;
 	margin-left: 250px;
@@ -154,7 +159,8 @@ a {
 	border-bottom: 1px solid #717171;
 	display: inline-flex;
 	font-size: 22px;
-	padding: 14px 0 14px 10px;
+	min-height: 60px;
+	padding: 0 0 0 10px;
 	width: 100%;
 }
 
