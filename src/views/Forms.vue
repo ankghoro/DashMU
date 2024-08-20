@@ -41,5 +41,5 @@ export default {
 		const page = computed(() => route.name)
 		return { page }
 	}
-}
+};
 </script>

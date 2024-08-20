@@ -62,25 +62,3 @@
 		height: 0;
 	}
 }
-
-@keyframes expand {
-	0% {
-		opacity: 0;
-		visibility: collapse;
-	}
-	100% {
-		opacity: 1;
-		visibility: visible;
-	}
-}
-
-@keyframes collapsed {
-	0% {
-		opacity: 1;
-		visibility: visible;
-	}
-	100% {
-		opacity: 0;
-		visibility: collapse;
-	}
-}

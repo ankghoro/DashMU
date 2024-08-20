@@ -11,12 +11,6 @@
 	<div class="content-body">
 		<div class="container-fluid">
 			<Boxes />
-
-			<div class="row">
-				<div class="col-lg-5 connectedSortable ui-sortable">
-					under process...
-				</div>
-			</div>
 		</div>
 	</div>
 </template>
@@ -29,5 +23,5 @@ export default {
 	components: {
 		Boxes
 	}
-}
+};
 </script>

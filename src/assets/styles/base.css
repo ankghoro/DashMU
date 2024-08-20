@@ -60,22 +60,22 @@
 
 @font-face {
 	font-family: 'Jost';
-	src: url('../fonts/jost.thin.ttf') format('truetype');
+	src: url('~/assets/fonts/jost.thin.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'Jost Italic';
-	src: url('../fonts/jost.thin-italic.ttf') format('truetype');
+	src: url('~/assets/fonts/jost.thin-italic.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'Jost Light';
-	src: url('../fonts/jost.light.ttf') format('truetype');
+	src: url('~/assets/fonts/jost.light.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'Jost Bold';
-	src: url('../fonts/jost.medium.ttf') format('truetype');
+	src: url('~/assets/fonts/jost.medium.ttf') format('truetype');
 }
 
 body {

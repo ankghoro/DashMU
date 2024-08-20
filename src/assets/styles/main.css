@@ -1,4 +1,4 @@
-@import './base.css';
+@import '@/assets/styles/base.css';
 
 #app {
 	display: block;
@@ -7,15 +7,16 @@
 }
 
 a {
-	text-decoration: none;
 	color: rgba(0,0,0,.5);
+	cursor: pointer;
+	text-decoration: none;
 	transition: 0.4s;
 	padding: 3px;
 }
 
 @media (hover: hover) {
 	a:hover {
-		font-weight: 600;
+		font-weight: normal;
 	}
 	a svg:hover {
 		color: #000;
@@ -90,10 +91,10 @@ a {
 }
 
 .side-list .nav-treeview {
-    background-color: transparent;
-    display: block;
-    list-style: none;
-    padding: 0;
+	background-color: transparent;
+	display: block;
+	list-style: none;
+	padding: 0;
 }
 
 .side-list .nav-treeview li {
@@ -114,10 +115,10 @@ a {
 }
 
 .side-list .nav-item p {
-    display: inline;
-    margin-bottom: 0;
-    margin-left: 10px;
-    white-space: normal;
+	display: inline;
+	margin-bottom: 0;
+	margin-left: 10px;
+	white-space: normal;
 }
 
 .side-list .nav-item > .router-link-active {
@@ -131,7 +132,7 @@ a {
 
 .parent-link:has(~ .nav-treeview .router-link-active) {
 	background-color: #028A30;
-    color: #fff;
+	color: #fff;
 }
 
 .expandable {
@@ -172,6 +173,11 @@ a {
 	width: 100%;
 }
 
+.dash-adm-dp {
+	align-items: center;
+	display: inline-flex;
+}
+
 .dash-adm-dp > img {
 	border-radius: 50%;
 	width: 45px;
@@ -207,10 +213,6 @@ a {
 	display: inline-flex;
 }
 
-.nav-link {
-	padding: 5px 1rem;
-}
-
 .main-body {
 	background-color: #f4f6f9;
 	height: 100%;
@@ -224,10 +226,6 @@ a {
 
 .router-link-active:hover {
 	background-color: #028A30 !important;
-}
-
-.ml-auto {
-	margin-left: auto;
 }
 
 .footer {

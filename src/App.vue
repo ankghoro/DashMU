@@ -164,5 +164,5 @@ export default {
 			this.resizeContainer();
 		});
 	}
-}
+};
 </script>

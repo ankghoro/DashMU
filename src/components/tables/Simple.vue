@@ -494,6 +494,5 @@ export default {
 			eleExpand.classList.toggle('d-none')
 		}
 	}
-}
-
+};
 </script>
